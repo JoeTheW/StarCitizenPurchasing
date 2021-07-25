@@ -1,0 +1,128 @@
+*{
+    font-family: sans-serif;
+    color:#88c1db;
+}
+
+p::first-letter { 
+
+     color:blue;
+     font-size: x-large;
+     font-weight: bold;
+    /*text-align: center; 
+    text-decoration: underline; */
+}
+
+html,body { height:100%;    box-sizing: border-box; }
+body{
+    background-image:url("assets/images/pagebackground.jpg");
+    padding: 20px;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+
+     .header{
+         height: 10%;
+         position: relative;
+        }
+ #pageIcon{width:auto; display:inline-block;  vertical-align:middle;}
+ #headerList{list-style: none; width:auto; display:inline-block; line-height: 10px; width: 70%; vertical-align:middle;}
+ #pageTitle { font-size: 23px;}
+ #pageSubtitle{ font-size: 15px;}
+
+ .header h2{font-weight:normal;}
+
+ #container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: blue; */
+    height: 90%;
+    width: 100%;
+}
+
+#container > div{
+    margin: 3% auto; 
+    vertical-align:middle;
+    display: inline-block;
+    position: relative;
+width: 40%;
+height: 80%;
+border-radius: 10px;
+border: 3px solid #48a3cd;
+background-color: rgba(0, 0, 0, 0.85);
+}
+
+#container > div * {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.boxHeader{
+    /* background-color: red; */
+    display: flex;    justify-content: space-between;
+}
+
+.searchBox{
+    display: flex;
+    position: relative;
+    flex: 1;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid #48a3cd;
+    height: 30px;
+    margin : auto;
+    vertical-align:middle;
+    align-items:center;
+justify-content: center;
+}
+
+.searchBox img { 
+     vertical-align: middle;
+     height: auto;
+     /* height: 70%; */
+     display: inline-block;
+}
+
+.searchBox input{ 
+    position: relative;
+    background-color:transparent;
+    border-color: transparent;
+    vertical-align: middle;
+    width: 70%;
+    display: inline-block;
+    flex: 1;
+    outline-width: 0;
+}
+
+::placeholder{ color:#48a3cd;}
+
+.boxTitle{font-size: 23px; font-weight: bold;}
+
+/* .leftBox{float:left;}
+.rightBox{float:left;}
+.rightBox, .leftBox*/
+
+
+
+
+
+
+
+
+ #bigman { background-color: green;}
+
+ .catPic { border: 10px; border-style: dashed; border-color: salmon;
+cursor: grabbing;
+box-shadow: 4px 4px 20px 1px #999;}
+
+.udacity-text
+{
+color:#8001ff;
+font-family: Helvetica, Arial, sans-serif;
+font-weight: bold;
+font-size: large;
+border-radius: 4px;
+text-decoration: underline ;text-decoration-thickness: 4px;
+cursor:grab;
+}
