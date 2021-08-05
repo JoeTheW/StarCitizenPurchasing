@@ -135,6 +135,10 @@ justify-content: center;
     color: rgba(0, 0, 0, 0.85);
     cursor: pointer;
 }
+
+.dropdown-content button:active{
+    background-color:#367ea0 ; /* Green */
+}
   
 
 
